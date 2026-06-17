@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@font-face {
+    font-family: Satoshi;
+    src: url(./assets/fonts/Satoshi-Bold.otf);
+}
+
+@theme{
+    --font-Satoshi:Satoshi;
+    --font-Inter: Inter, sans-serif;
+    --color-Navy:#1E293B;
+    --color-Orange:#FF6B4A;
+    --color-Mint:#2DD4BF;
+    --color-LightGrey:#F8FAFC;
+    --colot-DarkSlate:#2F4F4F;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     text-align: center;
+}
